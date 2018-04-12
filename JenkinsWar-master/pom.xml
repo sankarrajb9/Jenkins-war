@@ -17,5 +17,16 @@
   </dependencies>
   <build>
     <finalName>JenkinsWar</finalName>
+    
+    <plugin>
+		<groupId>org.apache.tomcat.maven</groupId>
+		<artifactId>maven-plugin</artifactId>
+		<version>2.2</version>
+		<configuration>
+			<url>http://10.0.0.80:8080/manager/text</url>
+			<server>TomcatServer</server>
+			<path>/website</path>
+		</configuration>
+	</plugin>
   </build>
 </project>
