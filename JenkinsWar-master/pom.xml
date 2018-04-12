@@ -17,7 +17,7 @@
   </dependencies>
   <build>
     <finalName>JenkinsWar</finalName>
-    
+    <plugins>
     <plugin>
 		<groupId>org.apache.tomcat.maven</groupId>
 		<artifactId>maven-plugin</artifactId>
@@ -28,5 +28,6 @@
 			<path>/website</path>
 		</configuration>
 	</plugin>
+	  </plugins>
   </build>
 </project>
