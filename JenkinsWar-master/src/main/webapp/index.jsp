@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hey !!! We sucessfully Deployed the War file on Tomcat..</h2>
+<h2>Hey !!! We are good to deploy..</h2>
 </body>
 </html>
